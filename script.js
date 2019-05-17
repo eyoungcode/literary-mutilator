@@ -8,7 +8,7 @@ function textColor(){
 	document.getElementById("two").style.backgroundColor = "black";
 }
 
-function highlight(text) {
+function colorWord(text) {
 	var inputText = document.getElementById("three");
 	var innerHTML = inputText.innerHTML;
 	var index = innerHTML.indexOf(text);
