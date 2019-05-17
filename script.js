@@ -9,7 +9,7 @@ function textColor(){
 }
 
 function highlight(text) {
-	var inputText = document.getElementById("inputText");
+	var inputText = document.getElementById("three");
 	var innerHTML = inputText.innerHTML;
 	var index = innerHTML.indexOf(text);
 	if (index >= 0) {
