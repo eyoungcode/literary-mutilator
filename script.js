@@ -8,12 +8,10 @@ function textColor(){
 	document.getElementById("two").style.backgroundColor = "black";
 }
 
-function colorWord(text) {
-	var inputText = document.getElementById("three");
-	var innerHTML = inputText.innerHTML;
-	var index = innerHTML.indexOf(text);
-	if (index >= 0) {
-		innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>" + innerHTML.substring(index,index+text.length) + "</span>" + innerHTML.substring(index + text.length);
-		inputText.innerHTML = innerHTML;
-	}
+function colorWord() {
+	var txt = document.getElementById("colorWord").innerHTML
 }
+
+var findWord = document.getElementById("txt-find").value;
+var replaceWord = document.getElementById("txt-replace").value;
+document.getElementById("colorWord").innerHTML = newText;
