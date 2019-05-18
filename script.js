@@ -9,12 +9,14 @@ function textColor(){
 }
 
 function changeWord() {
-	var txt = document.getElementById("old-new").innerHTML
+	var txt = document.getElementById("three").innerHTML
 }
 
-var oldWord = document.getElementById("txt-old-word").value;
-var newWord = document.getElementById("txt-new-word").value;
+var oldWord = document.getElementById("three").value;
+var newWord = document.getElementById("three").value;
 
 var re = new RegExp(oldWord, "gi");
-var newText = txt.new(re, newWord);
-document.getElementById("old-new").innerHTML = newText;
+
+var newText = txt.new(ne, newWord);
+
+document.getElementById("three").innerHTML = newText;
