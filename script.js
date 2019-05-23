@@ -15,8 +15,8 @@ function changeWord() {
 var oldWord = document.getElementById("three").value;
 var newWord = document.getElementById("three").value;
 
-var re = new RegExp(oldWord, "gi");
+var re = new RegExp(oldWord);
 
-var newText = txt.new(ne, newWord);
+var newText = txt.new(newWord);
 
 document.getElementById("three").innerHTML = newText;
